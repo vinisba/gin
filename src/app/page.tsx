@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function renderSampleText(text) {
+function renderSampleText(text: string) {
   return <h1>{text}</h1>;
 }
 
