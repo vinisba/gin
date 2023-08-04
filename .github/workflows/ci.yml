@@ -39,7 +39,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       
       - name: 📦 Install dependencies
-        uses: pnpm install
+        run: pnpm install
       
       - name: 🔎 Type check
         run: pnpm type-check
